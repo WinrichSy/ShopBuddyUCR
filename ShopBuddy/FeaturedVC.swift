@@ -12,7 +12,7 @@ class FeaturedVC: UIViewController {
     
     @IBOutlet var tableView: UITableView!
     
-    var featuredList: [NSString] = ["Gas Stations", "Restaurants", "Department Stores", "Drugstores", "Coffee & Tea", "Bars"]
+    var featuredList: [NSString] = ["Gas Stations", "Grocery Stores", "Electronics", "Beverages", "Cleaning Stores", "Clothing Departments"]
     var currentFeaturedCellText: String = "default"
     
     override func viewDidLoad() {

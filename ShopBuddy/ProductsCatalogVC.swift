@@ -137,27 +137,42 @@ class ProductsCatalogVC: UIViewController, UITableViewDataSource, UITableViewDel
         arrayOfProducts.append(Product(category: "Fruit", productName: "Orange"))
         arrayOfProducts.append(Product(category: "Fruit", productName: "Banana"))
         arrayOfProducts.append(Product(category: "Fruit", productName: "Watermelon"))
+        arrayOfProducts.append(Product(category: "Fruit", productName: "Strawberry"))
+        arrayOfProducts.append(Product(category: "Fruit", productName: "Pineapple"))
+        arrayOfProducts.append(Product(category: "Fruit", productName: "Avocado"))
         
         arrayOfProducts.append(Product(category: "Electronic", productName: ""))
         arrayOfProducts.append(Product(category: "Electronic", productName: "iPhone 6"))
         arrayOfProducts.append(Product(category: "Electronic", productName: "iPad Air 2"))
         arrayOfProducts.append(Product(category: "Electronic", productName: "Lightning Cable"))
         arrayOfProducts.append(Product(category: "Electronic", productName: "AirPort Express"))
+        arrayOfProducts.append(Product(category: "Electronic", productName: "Batteries"))
+        arrayOfProducts.append(Product(category: "Electronic", productName: "PS4"))
+        arrayOfProducts.append(Product(category: "Electronic", productName: "XBox One"))
     
         arrayOfProducts.append(Product(category: "Beverage", productName: ""))
         arrayOfProducts.append(Product(category: "Beverage", productName: "Coca-Cola"))
         arrayOfProducts.append(Product(category: "Beverage", productName: "Bud Light"))
         arrayOfProducts.append(Product(category: "Beverage", productName: "Water"))
         arrayOfProducts.append(Product(category: "Beverage", productName: "Orange Juice"))
+        arrayOfProducts.append(Product(category: "Beverage", productName: "Red Wine"))
+        arrayOfProducts.append(Product(category: "Beverage", productName: "White Wine"))
+        arrayOfProducts.append(Product(category: "Beverage", productName: "Dom Perignon"))
 
         arrayOfProducts.append(Product(category: "Cleaning", productName: ""))
         arrayOfProducts.append(Product(category: "Cleaning", productName: "Windex"))
         arrayOfProducts.append(Product(category: "Cleaning", productName: "Clorex"))
+        arrayOfProducts.append(Product(category: "Cleaning", productName: "Lysol"))
+        arrayOfProducts.append(Product(category: "Cleaning", productName: "Swifter"))
 
-        arrayOfProducts.append(Product(category: "Cloth", productName: ""))
-        arrayOfProducts.append(Product(category: "Cloth", productName: "T-Shirt"))
-        arrayOfProducts.append(Product(category: "Cloth", productName: "Jeans"))
-        arrayOfProducts.append(Product(category: "Cloth", productName: "Swimsuit"))
+        arrayOfProducts.append(Product(category: "Clothes", productName: ""))
+        arrayOfProducts.append(Product(category: "Clothes", productName: "T-Shirt"))
+        arrayOfProducts.append(Product(category: "Clothes", productName: "Pants"))
+        arrayOfProducts.append(Product(category: "Clothes", productName: "Swimsuit"))
+        arrayOfProducts.append(Product(category: "Clothes", productName: "Belt"))
+        arrayOfProducts.append(Product(category: "Clothes", productName: "Shoes"))
+
+        
     }
     
     func filterContentForSearchText(searchText: String) {
