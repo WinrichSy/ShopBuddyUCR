@@ -130,6 +130,7 @@ class ProductsCatalogVC: UIViewController, UITableViewDataSource, UITableViewDel
         arrayOfProducts.append(Product(category: "Gas", productName: ""))
         arrayOfProducts.append(Product(category: "Gas", productName: "Regular Gas"))
         arrayOfProducts.append(Product(category: "Gas", productName: "Mid-grade Gas"))
+        arrayOfProducts.append(Product(category: "Gas", productName: "Premium Gas"))
         arrayOfProducts.append(Product(category: "Gas", productName: "Diesel Gas"))
         
         arrayOfProducts.append(Product(category: "Fruit", productName: ""))
